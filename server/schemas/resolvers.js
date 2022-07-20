@@ -4,7 +4,7 @@ const {User,Book} = require('../models');
 
 const resolvers = {
     Query: {
-        user: async () => {
+        me: async () => {
             return await User.findOne({});
         }
 
