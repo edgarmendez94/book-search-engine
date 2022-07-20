@@ -28,23 +28,18 @@ const typeDefs = gql`
   }
 
 
-  type Mutation {
-    addUser(username: String!, email: String!, password: String!): Auth
-    login(email: String!, password: String!): Auth
-  
-    saveBook(authors: String!, description: String!, title: , bookid: , image: , link: )
-  
-    removeBook(bookId):User
-  }
 
 `;
 
-
-
-
-
-
-
-
-
 module.exports = typeDefs;
+
+
+
+// type Mutation {
+//   addUser(username: String!, email: String!, password: String!): Auth
+//   login(email: String!, password: String!): Auth
+
+//   saveBook(authors: String!, description: String!, title: , bookid: , image: , link ): User
+
+//   removeBook(bookId):User
+// }
